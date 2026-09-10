@@ -1,0 +1,10 @@
+# Learning state lives in ChatGPT Library, not in this repository.
+progress.json
+progress*.bak
+session_update*.json
+
+# Local/editor noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
