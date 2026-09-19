@@ -1,0 +1,2685 @@
+{
+  "course": "modern-algebra-pathway",
+  "stages": [
+    {
+      "id": "S000",
+      "title": "数学句子到底在说什么",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S000.md",
+      "prerequisites": [],
+      "actions": [
+        "M01",
+        "M05"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S001",
+      "title": "先算清楚运算，再谈它的性质",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S001.md",
+      "prerequisites": [
+        "S000"
+      ],
+      "actions": [
+        "M02",
+        "M01"
+      ],
+      "themes": [
+        "T01"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S002",
+      "title": "用少量东西生成更多东西",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S002.md",
+      "prerequisites": [
+        "S001"
+      ],
+      "actions": [
+        "M03",
+        "M02"
+      ],
+      "themes": [
+        "T01"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S003",
+      "title": "跟踪映射保留了什么、丢掉了什么",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S003.md",
+      "prerequisites": [
+        "S000",
+        "S002"
+      ],
+      "actions": [
+        "M05",
+        "M06"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S004",
+      "title": "主动把某些差异视为相同",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S004.md",
+      "prerequisites": [
+        "S003"
+      ],
+      "actions": [
+        "M04",
+        "M01"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S005",
+      "title": "从可逆变换中认识群",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S005.md",
+      "prerequisites": [
+        "S001",
+        "S003"
+      ],
+      "actions": [
+        "M07",
+        "M05"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S006",
+      "title": "把“有多少解”变成可计算的信息",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S006.md",
+      "prerequisites": [
+        "S002",
+        "S003"
+      ],
+      "actions": [
+        "M02",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S007",
+      "title": "换坐标，不换对象",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S007.md",
+      "prerequisites": [
+        "S006"
+      ],
+      "actions": [
+        "M06",
+        "M05"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S008",
+      "title": "把方程当成运算规则",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S008.md",
+      "prerequisites": [
+        "S004",
+        "S006"
+      ],
+      "actions": [
+        "M04",
+        "M02"
+      ],
+      "themes": [
+        "T01",
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S009",
+      "title": "先拆一个整数，再拆一个问题",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S009.md",
+      "prerequisites": [
+        "S002",
+        "S004"
+      ],
+      "actions": [
+        "M08",
+        "M04"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S010",
+      "title": "把实验变成猜想，再把猜想交给证明",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S010.md",
+      "prerequisites": [
+        "S005",
+        "S009"
+      ],
+      "actions": [
+        "M01",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S011",
+      "title": "用映射与不变量比较结构",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S011.md",
+      "prerequisites": [
+        "S007",
+        "S008",
+        "S010"
+      ],
+      "actions": [
+        "M01",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S012",
+      "title": "用同态说“这两种运算相通”",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S012.md",
+      "prerequisites": [
+        "S005",
+        "S011"
+      ],
+      "actions": [
+        "M05",
+        "M07"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S013",
+      "title": "生成元与关系必须同时记录",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S013.md",
+      "prerequisites": [
+        "S012"
+      ],
+      "actions": [
+        "M03",
+        "M04"
+      ],
+      "themes": [
+        "T01",
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S014",
+      "title": "什么关系可以与群运算相容",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S014.md",
+      "prerequisites": [
+        "S012",
+        "S013"
+      ],
+      "actions": [
+        "M04",
+        "M05"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S015",
+      "title": "用作用把对象分成轨道",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S015.md",
+      "prerequisites": [
+        "S014"
+      ],
+      "actions": [
+        "M07",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S016",
+      "title": "把两个群装在一起：直积与半直积",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S016.md",
+      "prerequisites": [
+        "S015"
+      ],
+      "actions": [
+        "M08",
+        "M07"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S017",
+      "title": "用共轭与中心追踪内部结构",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S017.md",
+      "prerequisites": [
+        "S015"
+      ],
+      "actions": [
+        "M07",
+        "M08"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S018",
+      "title": "用素数幂把有限群切开",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S018.md",
+      "prerequisites": [
+        "S017"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S019",
+      "title": "把分解失败的方式也记下来",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S019.md",
+      "prerequisites": [
+        "S016",
+        "S018"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S020",
+      "title": "让加法和乘法一起通过一个映射",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S020.md",
+      "prerequisites": [
+        "S008",
+        "S014"
+      ],
+      "actions": [
+        "M05",
+        "M04"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S021",
+      "title": "用商环识别素、极大与幂零",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S021.md",
+      "prerequisites": [
+        "S020"
+      ],
+      "actions": [
+        "M06",
+        "M04"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S022",
+      "title": "把整除的计算变成结构条件",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S022.md",
+      "prerequisites": [
+        "S021"
+      ],
+      "actions": [
+        "M02",
+        "M08"
+      ],
+      "themes": [
+        "T01",
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S023",
+      "title": "寻找不可约性，而不是只尝试分解",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S023.md",
+      "prerequisites": [
+        "S022"
+      ],
+      "actions": [
+        "M01",
+        "M02"
+      ],
+      "themes": [
+        "T01"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S024",
+      "title": "把向量空间移到任意域，并引入对偶",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S024.md",
+      "prerequisites": [
+        "S007",
+        "S021"
+      ],
+      "actions": [
+        "M09",
+        "M12"
+      ],
+      "themes": [
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S025",
+      "title": "把“数乘”替换成一般环的作用",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S025.md",
+      "prerequisites": [
+        "S020",
+        "S024"
+      ],
+      "actions": [
+        "M03",
+        "M09"
+      ],
+      "themes": [
+        "T01",
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S026",
+      "title": "用正合列记录信息怎样流动",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S026.md",
+      "prerequisites": [
+        "S025"
+      ],
+      "actions": [
+        "M13",
+        "M08"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S027",
+      "title": "把关系矩阵化成可以读的形状",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S027.md",
+      "prerequisites": [
+        "S022",
+        "S026"
+      ],
+      "actions": [
+        "M02",
+        "M08"
+      ],
+      "themes": [
+        "T01",
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S028",
+      "title": "把算子分解成循环部件",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S028.md",
+      "prerequisites": [
+        "S025",
+        "S027"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S029",
+      "title": "第二次重建：同一关系的三种语言",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S029.md",
+      "prerequisites": [
+        "S019",
+        "S026",
+        "S028"
+      ],
+      "actions": [
+        "M04",
+        "M08"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S030",
+      "title": "用映射要求定义对象：泛性质",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S030.md",
+      "prerequisites": [
+        "S014",
+        "S020",
+        "S026"
+      ],
+      "actions": [
+        "M16",
+        "M05"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S031",
+      "title": "把双线性问题变成线性问题",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S031.md",
+      "prerequisites": [
+        "S025",
+        "S030"
+      ],
+      "actions": [
+        "M11",
+        "M09"
+      ],
+      "themes": [
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S032",
+      "title": "区分对称、交替与一般多线性",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S032.md",
+      "prerequisites": [
+        "S024",
+        "S031"
+      ],
+      "actions": [
+        "M12",
+        "M11"
+      ],
+      "themes": [
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S033",
+      "title": "用线性空间观察群",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S033.md",
+      "prerequisites": [
+        "S015",
+        "S025"
+      ],
+      "actions": [
+        "M07",
+        "M11"
+      ],
+      "themes": [
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S034",
+      "title": "通过平均构造保持对称性的投影",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S034.md",
+      "prerequisites": [
+        "S033",
+        "S024"
+      ],
+      "actions": [
+        "M08",
+        "M07"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S035",
+      "title": "通过加根扩充可解的方程",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S035.md",
+      "prerequisites": [
+        "S023",
+        "S025"
+      ],
+      "actions": [
+        "M09",
+        "M03"
+      ],
+      "themes": [
+        "T01",
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S036",
+      "title": "在有限域里让 Frobenius 做工作",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S036.md",
+      "prerequisites": [
+        "S035"
+      ],
+      "actions": [
+        "M07",
+        "M09"
+      ],
+      "themes": [
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S037",
+      "title": "把所有根放进来，同时检查重根",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S037.md",
+      "prerequisites": [
+        "S035",
+        "S036"
+      ],
+      "actions": [
+        "M03",
+        "M07"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S038",
+      "title": "用对称性反向读取中间域",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S038.md",
+      "prerequisites": [
+        "S019",
+        "S037"
+      ],
+      "actions": [
+        "M07",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S039",
+      "title": "允许某些元素可逆，会改变什么",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S039.md",
+      "prerequisites": [
+        "S021",
+        "S025"
+      ],
+      "actions": [
+        "M10",
+        "M09"
+      ],
+      "themes": [
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S040",
+      "title": "用有限生成控制无限过程",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S040.md",
+      "prerequisites": [
+        "S025",
+        "S039"
+      ],
+      "actions": [
+        "M03",
+        "M15"
+      ],
+      "themes": [
+        "T01",
+        "T04"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S041",
+      "title": "把方程和它们的解集来回翻译",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S041.md",
+      "prerequisites": [
+        "S020",
+        "S040"
+      ],
+      "actions": [
+        "M06",
+        "M04"
+      ],
+      "themes": [
+        "T02",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S042",
+      "title": "让“前一步的输出”与“下一步的零输入”比较",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S042.md",
+      "prerequisites": [
+        "S026",
+        "S031"
+      ],
+      "actions": [
+        "M13",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S043",
+      "title": "第三次重建：选择工具并审计输出",
+      "kind": "core",
+      "track": "core",
+      "path": "stages/S043.md",
+      "prerequisites": [
+        "S030",
+        "S031",
+        "S034",
+        "S038",
+        "S039",
+        "S040",
+        "S041",
+        "S042"
+      ],
+      "actions": [
+        "M01",
+        "M16"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "S044",
+      "title": "用迹压缩表示，再恢复分解",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S044.md",
+      "prerequisites": [
+        "S031",
+        "S034"
+      ],
+      "actions": [
+        "M06",
+        "M08"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S045",
+      "title": "沿子群限制，再把表示诱导回来",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S045.md",
+      "prerequisites": [
+        "S031",
+        "S044"
+      ],
+      "actions": [
+        "M09",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T06"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S046",
+      "title": "区分简单、不可分解与完全可约",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S046.md",
+      "prerequisites": [
+        "S025",
+        "S034"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S047",
+      "title": "把非交换环分成半单部分与根",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S047.md",
+      "prerequisites": [
+        "S046"
+      ],
+      "actions": [
+        "M08",
+        "M04"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S048",
+      "title": "改变环，模论却可能没变：Morita 例子",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S048.md",
+      "prerequisites": [
+        "S030",
+        "S047"
+      ],
+      "actions": [
+        "M16",
+        "M09"
+      ],
+      "themes": [
+        "T02",
+        "T06"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S049",
+      "title": "把多个空间与映射一起作为对象",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S049.md",
+      "prerequisites": [
+        "S026",
+        "S046"
+      ],
+      "actions": [
+        "M05",
+        "M08"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S050",
+      "title": "看见箭图里不能拆开的连接",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S050.md",
+      "prerequisites": [
+        "S049",
+        "S090"
+      ],
+      "actions": [
+        "M13",
+        "M08"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S051",
+      "title": "保留下来的函数：不变量与平均",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S051.md",
+      "prerequisites": [
+        "S034",
+        "S040",
+        "S041"
+      ],
+      "actions": [
+        "M07",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S052",
+      "title": "用交换子捕捉无穷小对称",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S052.md",
+      "prerequisites": [
+        "S024",
+        "S032",
+        "S033"
+      ],
+      "actions": [
+        "M07",
+        "M11"
+      ],
+      "themes": [
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S053",
+      "title": "用导出列与中心列区分 Lie 结构",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S053.md",
+      "prerequisites": [
+        "S052"
+      ],
+      "actions": [
+        "M08",
+        "M15"
+      ],
+      "themes": [
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S054",
+      "title": "把 Lie 关系装进结合代数",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S054.md",
+      "prerequisites": [
+        "S030",
+        "S032",
+        "S052"
+      ],
+      "actions": [
+        "M04",
+        "M16"
+      ],
+      "themes": [
+        "T02"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S055",
+      "title": "从一个最高向量生成整个 sl₂ 表示",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S055.md",
+      "prerequisites": [
+        "S053",
+        "S054"
+      ],
+      "actions": [
+        "M03",
+        "M08"
+      ],
+      "themes": [
+        "T01",
+        "T03"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S056",
+      "title": "把许多 sl₂ 方向组织成根系",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S056.md",
+      "prerequisites": [
+        "S055",
+        "S024"
+      ],
+      "actions": [
+        "M06",
+        "M07"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S057",
+      "title": "用最高权分类，但保留构造能力",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S057.md",
+      "prerequisites": [
+        "S056"
+      ],
+      "actions": [
+        "M03",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S058",
+      "title": "对称分支综合：分解之外还剩什么",
+      "kind": "focus",
+      "track": "representation",
+      "path": "stages/S058.md",
+      "prerequisites": [
+        "S044",
+        "S047",
+        "S049",
+        "S055"
+      ],
+      "actions": [
+        "M08",
+        "M01"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "S059",
+      "title": "区分真正自由的参数与代数关系",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S059.md",
+      "prerequisites": [
+        "S035",
+        "S040"
+      ],
+      "actions": [
+        "M03",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S060",
+      "title": "把域元素变成线性算子：迹、范数、判别式",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S060.md",
+      "prerequisites": [
+        "S024",
+        "S035",
+        "S037"
+      ],
+      "actions": [
+        "M06",
+        "M11"
+      ],
+      "themes": [
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S061",
+      "title": "把“代数元素”推广成“整元素”",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S061.md",
+      "prerequisites": [
+        "S035",
+        "S040",
+        "S059"
+      ],
+      "actions": [
+        "M03",
+        "M09"
+      ],
+      "themes": [
+        "T01",
+        "T06"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S062",
+      "title": "用阶数描述一个局部环",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S062.md",
+      "prerequisites": [
+        "S039",
+        "S022"
+      ],
+      "actions": [
+        "M10",
+        "M15"
+      ],
+      "themes": [
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S063",
+      "title": "元素不能唯一分解时，改分解理想",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S063.md",
+      "prerequisites": [
+        "S061",
+        "S062",
+        "S040",
+        "S060"
+      ],
+      "actions": [
+        "M08",
+        "M10"
+      ],
+      "themes": [
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S064",
+      "title": "观察一个素数在扩域后怎样裂开",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S064.md",
+      "prerequisites": [
+        "S063",
+        "S038",
+        "S060"
+      ],
+      "actions": [
+        "M09",
+        "M08"
+      ],
+      "themes": [
+        "T03",
+        "T06"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S065",
+      "title": "用一致的有限精度数据定义一个数",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S065.md",
+      "prerequisites": [
+        "S062",
+        "S030"
+      ],
+      "actions": [
+        "M15",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S066",
+      "title": "逐阶修正近似根：Hensel 提升",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S066.md",
+      "prerequisites": [
+        "S065",
+        "S023"
+      ],
+      "actions": [
+        "M15",
+        "M02"
+      ],
+      "themes": [
+        "T01",
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S067",
+      "title": "用有限界把理想类问题变成有限检验",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S067.md",
+      "prerequisites": [
+        "S027",
+        "S063",
+        "S060"
+      ],
+      "actions": [
+        "M06",
+        "M02"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S068",
+      "title": "用单位群观察无限但可控的自由度",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S068.md",
+      "prerequisites": [
+        "S060",
+        "S063",
+        "S067"
+      ],
+      "actions": [
+        "M03",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S069",
+      "title": "算术综合：同一个元素的全局与局部面貌",
+      "kind": "focus",
+      "track": "arithmetic",
+      "path": "stages/S069.md",
+      "prerequisites": [
+        "S064",
+        "S066",
+        "S067",
+        "S068"
+      ],
+      "actions": [
+        "M10",
+        "M15"
+      ],
+      "themes": [
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "S070",
+      "title": "让素理想成为可观察的点",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S070.md",
+      "prerequisites": [
+        "S039",
+        "S040",
+        "S041"
+      ],
+      "actions": [
+        "M10",
+        "M06"
+      ],
+      "themes": [
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S071",
+      "title": "用剩余域检查局部生成元：Nakayama",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S071.md",
+      "prerequisites": [
+        "S039",
+        "S040",
+        "S025"
+      ],
+      "actions": [
+        "M03",
+        "M10"
+      ],
+      "themes": [
+        "T01",
+        "T04"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S072",
+      "title": "看见分支与隐藏的嵌入成分",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S072.md",
+      "prerequisites": [
+        "S040",
+        "S070",
+        "S071"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S073",
+      "title": "用长度与 Artin 分解描述有限厚度",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S073.md",
+      "prerequisites": [
+        "S040",
+        "S071",
+        "S072"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S074",
+      "title": "用首项让多变量理想可以计算",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S074.md",
+      "prerequisites": [
+        "S023",
+        "S040"
+      ],
+      "actions": [
+        "M02",
+        "M04"
+      ],
+      "themes": [
+        "T01",
+        "T02"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S075",
+      "title": "消去变量，但不误读投影",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S075.md",
+      "prerequisites": [
+        "S074",
+        "S041",
+        "S060"
+      ],
+      "actions": [
+        "M02",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S076",
+      "title": "用独立参数控制有限型代数",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S076.md",
+      "prerequisites": [
+        "S059",
+        "S061",
+        "S075"
+      ],
+      "actions": [
+        "M03",
+        "M06"
+      ],
+      "themes": [
+        "T01",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S077",
+      "title": "用素理想链测量维数",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S077.md",
+      "prerequisites": [
+        "S070",
+        "S076",
+        "S062"
+      ],
+      "actions": [
+        "M06",
+        "M10"
+      ],
+      "themes": [
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S078",
+      "title": "用分次增长读出维数",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S078.md",
+      "prerequisites": [
+        "S032",
+        "S040",
+        "S077"
+      ],
+      "actions": [
+        "M15",
+        "M06"
+      ],
+      "themes": [
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S079",
+      "title": "用有限阶长度测量局部重数",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S079.md",
+      "prerequisites": [
+        "S065",
+        "S073",
+        "S077",
+        "S078"
+      ],
+      "actions": [
+        "M15",
+        "M06"
+      ],
+      "themes": [
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S080",
+      "title": "让完备化与子模相容：Artin–Rees",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S080.md",
+      "prerequisites": [
+        "S065",
+        "S071",
+        "S078"
+      ],
+      "actions": [
+        "M15",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S081",
+      "title": "用切空间判断局部正则",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S081.md",
+      "prerequisites": [
+        "S071",
+        "S077",
+        "S079"
+      ],
+      "actions": [
+        "M11",
+        "M10"
+      ],
+      "themes": [
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S082",
+      "title": "把一阶变化做成一个模：微分",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S082.md",
+      "prerequisites": [
+        "S031",
+        "S032",
+        "S081"
+      ],
+      "actions": [
+        "M11",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T06"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S083",
+      "title": "用余维一与深度检查正规性",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S083.md",
+      "prerequisites": [
+        "S061",
+        "S072",
+        "S077",
+        "S093"
+      ],
+      "actions": [
+        "M10",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S084",
+      "title": "交换代数综合：同一环的多份诊断",
+      "kind": "focus",
+      "track": "commutative",
+      "path": "stages/S084.md",
+      "prerequisites": [
+        "S072",
+        "S074",
+        "S076",
+        "S077",
+        "S081",
+        "S082"
+      ],
+      "actions": [
+        "M06",
+        "M01"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S085",
+      "title": "把解提升回去：投射对象不是大号自由对象",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S085.md",
+      "prerequisites": [
+        "S026",
+        "S030"
+      ],
+      "actions": [
+        "M05",
+        "M08",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S086",
+      "title": "向更大定义域延伸：内射与投射的方向差别",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S086.md",
+      "prerequisites": [
+        "S026",
+        "S085"
+      ],
+      "actions": [
+        "M05",
+        "M12",
+        "M13"
+      ],
+      "themes": [
+        "T02",
+        "T03",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S087",
+      "title": "换系数不破坏嵌入：平坦性的可检验含义",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S087.md",
+      "prerequisites": [
+        "S031",
+        "S039",
+        "S071",
+        "S085"
+      ],
+      "actions": [
+        "M09",
+        "M13",
+        "M10"
+      ],
+      "themes": [
+        "T03",
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S088",
+      "title": "用自由对象替代原对象：解消与比较映射",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S088.md",
+      "prerequisites": [
+        "S042",
+        "S085"
+      ],
+      "actions": [
+        "M03",
+        "M13",
+        "M15"
+      ],
+      "themes": [
+        "T01",
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S089",
+      "title": "把张量失效保存下来：Tor",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S089.md",
+      "prerequisites": [
+        "S087",
+        "S088"
+      ],
+      "actions": [
+        "M09",
+        "M13",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S090",
+      "title": "Hom的失效与非平凡扩张：Ext",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S090.md",
+      "prerequisites": [
+        "S086",
+        "S088"
+      ],
+      "actions": [
+        "M08",
+        "M12",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T06"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "S091",
+      "title": "把局部失败串起来：连接同态与长正合列",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S091.md",
+      "prerequisites": [
+        "S089",
+        "S090"
+      ],
+      "actions": [
+        "M13",
+        "M05"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S092",
+      "title": "方程之间的关系：Koszul复形与正则序列",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S092.md",
+      "prerequisites": [
+        "S032",
+        "S088",
+        "S091"
+      ],
+      "actions": [
+        "M03",
+        "M13",
+        "M11"
+      ],
+      "themes": [
+        "T01",
+        "T03",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S093",
+      "title": "能连续切几刀：深度与Cohen–Macaulay",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S093.md",
+      "prerequisites": [
+        "S071",
+        "S072",
+        "S077",
+        "S092"
+      ],
+      "actions": [
+        "M06",
+        "M13",
+        "M10"
+      ],
+      "themes": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S094",
+      "title": "有限解消有多长：投射维数与正则性",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S094.md",
+      "prerequisites": [
+        "S081",
+        "S089",
+        "S093"
+      ],
+      "actions": [
+        "M06",
+        "M13",
+        "M10"
+      ],
+      "themes": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S095",
+      "title": "分批消去误差：从滤过到谱序列",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S095.md",
+      "prerequisites": [
+        "S078",
+        "S091"
+      ],
+      "actions": [
+        "M15",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S096",
+      "title": "把替代品识别为同一个对象：导出范畴的第一步",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S096.md",
+      "prerequisites": [
+        "S030",
+        "S088",
+        "S089",
+        "S091"
+      ],
+      "actions": [
+        "M04",
+        "M16",
+        "M13"
+      ],
+      "themes": [
+        "T02",
+        "T03"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S097",
+      "title": "同调综合：信息到底在哪一步丢了",
+      "kind": "focus",
+      "track": "homological",
+      "path": "stages/S097.md",
+      "prerequisites": [
+        "S089",
+        "S090",
+        "S092",
+        "S094",
+        "S096"
+      ],
+      "actions": [
+        "M13",
+        "M01",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S098",
+      "title": "局部答案怎样拼成全局答案：层",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S098.md",
+      "prerequisites": [
+        "S030",
+        "S039",
+        "S070"
+      ],
+      "actions": [
+        "M14",
+        "M05"
+      ],
+      "themes": [
+        "T02",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S099",
+      "title": "缩小观察窗口：茎与层化",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S099.md",
+      "prerequisites": [
+        "S098"
+      ],
+      "actions": [
+        "M10",
+        "M14",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S100",
+      "title": "把局部代数装成空间：仿射概形与拼接",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S100.md",
+      "prerequisites": [
+        "S070",
+        "S098",
+        "S099"
+      ],
+      "actions": [
+        "M14",
+        "M10",
+        "M04"
+      ],
+      "themes": [
+        "T02",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S101",
+      "title": "反向映射与共同基底：态射、纤维与纤维积",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S101.md",
+      "prerequisites": [
+        "S031",
+        "S100"
+      ],
+      "actions": [
+        "M05",
+        "M09",
+        "M16"
+      ],
+      "themes": [
+        "T02",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S102",
+      "title": "模的局部版本：准凝聚层与拉回",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S102.md",
+      "prerequisites": [
+        "S025",
+        "S087",
+        "S099",
+        "S100",
+        "S101"
+      ],
+      "actions": [
+        "M09",
+        "M14",
+        "M03"
+      ],
+      "themes": [
+        "T01",
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S103",
+      "title": "局部能分开，全局是否重影：分离性",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S103.md",
+      "prerequisites": [
+        "S100",
+        "S101"
+      ],
+      "actions": [
+        "M14",
+        "M05",
+        "M01"
+      ],
+      "themes": [
+        "T02",
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S104",
+      "title": "不让极限逃出空间：固有性与赋值测试",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S104.md",
+      "prerequisites": [
+        "S062",
+        "S065",
+        "S103"
+      ],
+      "actions": [
+        "M14",
+        "M15",
+        "M01"
+      ],
+      "themes": [
+        "T04"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S105",
+      "title": "带次数的生成关系怎样变成射影空间：Proj",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S105.md",
+      "prerequisites": [
+        "S078",
+        "S100",
+        "S101"
+      ],
+      "actions": [
+        "M03",
+        "M09",
+        "M14"
+      ],
+      "themes": [
+        "T01",
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S106",
+      "title": "局部一条自由方向，全局却扭转：线丛",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S106.md",
+      "prerequisites": [
+        "S032",
+        "S102",
+        "S105"
+      ],
+      "actions": [
+        "M14",
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S107",
+      "title": "零与极点的账本：除子和线丛",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S107.md",
+      "prerequisites": [
+        "S062",
+        "S063",
+        "S106"
+      ],
+      "actions": [
+        "M06",
+        "M10",
+        "M14"
+      ],
+      "themes": [
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S108",
+      "title": "拼不上去的差额：Čech上同调",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S108.md",
+      "prerequisites": [
+        "S042",
+        "S091",
+        "S102",
+        "S106"
+      ],
+      "actions": [
+        "M14",
+        "M13",
+        "M06"
+      ],
+      "themes": [
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S109",
+      "title": "用一个公式同时计数函数和障碍：曲线上的Riemann–Roch",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S109.md",
+      "prerequisites": [
+        "S082",
+        "S104",
+        "S107",
+        "S108"
+      ],
+      "actions": [
+        "M06",
+        "M12",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T05",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S110",
+      "title": "族中的纤维怎样变化：平坦、光滑与étale",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S110.md",
+      "prerequisites": [
+        "S082",
+        "S087",
+        "S089",
+        "S101",
+        "S104",
+        "S108"
+      ],
+      "actions": [
+        "M09",
+        "M11",
+        "M13"
+      ],
+      "themes": [
+        "T03",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "S111",
+      "title": "改造空间并保存映射：一次完整的吹起实验",
+      "kind": "focus",
+      "track": "geometry",
+      "path": "stages/S111.md",
+      "prerequisites": [
+        "S081",
+        "S101",
+        "S105",
+        "S106",
+        "S107"
+      ],
+      "actions": [
+        "M14",
+        "M15",
+        "M11"
+      ],
+      "themes": [
+        "T04",
+        "T06"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "DD00",
+      "title": "从双数点到导出形变",
+      "kind": "research",
+      "track": "research",
+      "path": "research/DD00.md",
+      "prerequisites": [
+        "S082",
+        "S090",
+        "S096"
+      ],
+      "actions": [
+        "M11",
+        "M13"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R2"
+      ]
+    },
+    {
+      "id": "HA00",
+      "title": "从链同伦到高阶代数",
+      "kind": "research",
+      "track": "research",
+      "path": "research/HA00.md",
+      "prerequisites": [
+        "S030",
+        "S088",
+        "S096"
+      ],
+      "actions": [
+        "M16",
+        "M13"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R1"
+      ]
+    },
+    {
+      "id": "DA00",
+      "title": "用导出交集保存重复约束",
+      "kind": "research",
+      "track": "research",
+      "path": "research/DA00.md",
+      "prerequisites": [
+        "S089",
+        "S096",
+        "S101"
+      ],
+      "actions": [
+        "M09",
+        "M13"
+      ],
+      "themes": [
+        "T03"
+      ],
+      "research": [
+        "R3"
+      ]
+    },
+    {
+      "id": "CR00",
+      "title": "从箭图的 Grothendieck 群看范畴化",
+      "kind": "research",
+      "track": "research",
+      "path": "research/CR00.md",
+      "prerequisites": [
+        "S049",
+        "S050",
+        "S090"
+      ],
+      "actions": [
+        "M08",
+        "M06"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R5"
+      ]
+    },
+    {
+      "id": "PA00",
+      "title": "从 Frobenius 缺口进入 perfectoid 与棱柱",
+      "kind": "research",
+      "track": "research",
+      "path": "research/PA00.md",
+      "prerequisites": [
+        "S036",
+        "S062",
+        "S065",
+        "S066"
+      ],
+      "actions": [
+        "M10",
+        "M15"
+      ],
+      "themes": [
+        "T04"
+      ],
+      "research": [
+        "R9"
+      ]
+    },
+    {
+      "id": "CS00",
+      "title": "把拓扑对象编码成凝聚层",
+      "kind": "research",
+      "track": "research",
+      "path": "research/CS00.md",
+      "prerequisites": [
+        "S065",
+        "S098",
+        "S099"
+      ],
+      "actions": [
+        "M14",
+        "M16"
+      ],
+      "themes": [
+        "T04"
+      ],
+      "research": [
+        "R10"
+      ]
+    },
+    {
+      "id": "KT00",
+      "title": "从投射模计数到 K 理论与 THH",
+      "kind": "research",
+      "track": "research",
+      "path": "research/KT00.md",
+      "prerequisites": [
+        "S085",
+        "S096"
+      ],
+      "actions": [
+        "M06",
+        "M13"
+      ],
+      "themes": [
+        "T05"
+      ],
+      "research": [
+        "R11"
+      ]
+    }
+  ]
+}

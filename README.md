@@ -1,86 +1,33 @@
-# algebra-ai-spiral-v2
+# Modern Algebra Pathway
 
-面向 AI 协作环境的现代代数渐进学习计划。
+以代数内容、具体模型和不断生长的数学思想为中心的 AI 可教学教材。保留 **S000–S111 共 112 个经典 Stage**，另有 **7 个有具体计算的研究入口**。Stage 是唯一正式教学与持久位置单位。
 
-课程不把“群论 → 环论 → 域论 → 交换代数 → ……”当作唯一主轴，而围绕一组反复回访的数学动作组织：判定与证伪、计算与规范化、生成、施加关系与取商、保持结构的映射、不变量与分类、对称与作用、分解与扩张、改变系数、局部观察、线性化、对偶、正合与障碍、拼接、近似与滤过、泛性质与表示。
+## 四条学习线索
 
-**112 个 Stage，336 个 Goal，560 道编号任务。** Stage 是一次可定位的认知转折，不等同于传统教材的一章。分支之间按真实先修连接，代数几何不是默认终点。
+| 入口 | 回答的问题 |
+| --- | --- |
+| [Core](maps/CORE.md) / [Focus](maps/FOCUS.md) 中的 Stage | 现在学什么：语境、预备知识、例子、定义、例解、证明与练习 |
+| [ACTIONS](maps/ACTIONS.md) | 怎样做代数：生成、取商、找映射、换底、局部化、追踪正合 |
+| [THEMES](maps/THEMES.md) | 同一个思想怎样跨越不同对象并不断深化 |
+| [RESEARCH](maps/RESEARCH.md) | 经典问题通向哪些现代研究语言，还需要补什么 |
 
-## 运行时只需要这些文件
+从 [S000 · 数学句子到底在说什么](stages/S000.md) 开始；已有基础时按实际先修选择位置。[Core 路线](maps/CORE.md) 给出先修顺序，编号不要求机械递增。Focus 分为表示与非交换 / Lie、域与算术、交换与计算、同调与导出、代数几何五条路线。
 
-- `README.md`：总入口。
-- `TEACHING_PROTOCOL.md`：一轮怎样教、怎样提示、怎样判定证据。
-- `PROGRESS_PROTOCOL.md`：如何读取和更新 Library 中的 `progress.json`。
-- `INDEX.json`：轻量导航表。优先用它定位当前/下一 Stage，避免每轮读取完整 `curriculum.json`。
-- `ROADMAP.md`：人类可读的课程路线和分支。
-- `ACTIONS.md`：16 个数学动作的纵向回访图谱。
-- `SOURCES.md`：各 Stage 中来源代号的说明与入口。
-- `curriculum.json`：完整机器课程表；只有在需要检查目标、任务、依赖或课程版本时再读取。
-- `stages/`：学习者材料。
-- `coach/`：教师提示与核验材料。**不要在学习者作答前主动读取或展示。**
+## 恢复学习只需少量读取
 
-`progress.json` **不放在仓库里**。它应单独保存在 ChatGPT Library，并以 Library 中最新版本为唯一学习状态。
+1. 读取 [AGENTS.md](AGENTS.md)。
+2. 新会话恢复时读取 Library `/代数/progress.json` 一次。
+3. 用 [course.json](course.json) 和 [index/stages.json](index/stages.json) 定位，只读取当前 Stage。
+4. “继续”延续当前数学脉络。同一 Stage 内答题、提示、证明与纠错都不更新进度。
 
-## 最快的读取顺序
+只有实际切换 Stage，或明确要求保存位置，才写进度。进度仅含课程、当前 Stage、已完成 Stage，可选路线；**实际 progress 不放在仓库**。格式见 [进度协议](PROGRESS_PROTOCOL.md)。
 
-每次新会话不要遍历整个仓库，也不要预读 112 个 Stage：
+[Project 指令](PROJECT_INSTRUCTIONS.md) 可直接复制到 ChatGPT Project。[教学协议](TEACHING_PROTOCOL.md) 说明怎样用正文讲授，[进度协议](PROGRESS_PROTOCOL.md) 说明学习位置的保存规则。无法访问 Library 时，AI 应明确说明。
 
-1. 读取 `README.md`、`TEACHING_PROTOCOL.md`、`PROGRESS_PROTOCOL.md`。
-2. 读取 Library 中最新 `progress.json`。
-3. 用 `INDEX.json` 核对课程版本、游标、当前 Stage 路径和必要先修。
-4. 只读取当前 `stages/Sxxx.md`。
-5. 只有在需要给提示、核验实际作答或处理题目疑点时，才读取对应 `coach/Sxxx.md`。
-6. 只有在路由、目标/任务映射或课程完整性需要进一步核查时，才读取 `curriculum.json`、`ROADMAP.md`、`ACTIONS.md` 或 `SOURCES.md`。
+## 正文与研究入口
 
-初始状态从 `S000` 做无提示诊断。之后从 `progress.json` 保存的精确游标继续。
+每篇提供进入说明、最低先修与符号、简单模型、结构例、失败例、完整 worked example、定理或证明机制及练习。基础论证直接展开；借用的高级定理明确标注。旧教师材料中的数学计算与条件辨析已迁入公开正文，练习不再绑定评分或提示历史。
 
-## 课程怎样展开
+第一批研究入口：[形变 DD00](research/DD00.md)、[高阶代数 HA00](research/HA00.md)、[导出交集 DA00](research/DA00.md)、[范畴化 CR00](research/CR00.md)、[Perfectoid / Prismatic PA00](research/PA00.md)、[Condensed / Solid CS00](research/CS00.md)、[K 理论 / THH KT00](research/KT00.md)。这些是有边界的进入模型，不是整个研究领域的缩写教材。
 
-S000–S011 先在整数、余数、置换、线性方程和多项式上形成基本动作；S012–S029 将这些动作压缩为群、环、模、同态、商、正合列与标准形；S030–S043 交错进入泛性质、张量、表示、扩域、局部化、有限性与复形。
-
-之后进入相互连接的表示与非交换代数、Lie 理论、域与算术、交换与计算、同调与导出、代数几何等路线。它们不是必须线性修完的几门课。进入任何节点只看其实际先修。
-
-具体路线见 `ROADMAP.md`，数学动作的跨域回访见 `ACTIONS.md`。
-
-## 一个 Stage 里有什么
-
-每个 Stage 包含一个具体问题、一个锚例、三个可观察 Goal，以及操作、证明、构造、AI 错误审计、迁移等任务。一个 Goal 可以跨多轮完成。
-
-- `P`：题目要求的证明需要能够独立重建。
-- `U`：大型一般定理当前只要求准确陈述条件并会使用；不把一般证明记为已经掌握。
-
-讲解到 Level 5、用户说“懂了”、看过标准答案或 CAS 给出结果，都不能自动转成掌握证据。
-
-## 给 @渐进学习 的项目指令
-
-建议把仓库用 GitHub 连接提供给 ChatGPT，并在项目指令中写：
-
-```text
-@渐进学习 使用 GitHub 仓库 <owner>/<repo> 中的 algebra-ai-spiral-v2 教学计划。
-
-先读取 README.md、TEACHING_PROTOCOL.md、PROGRESS_PROTOCOL.md
-和 Library 中最新版本的 progress.json；progress.json 以 Library 最新版本为准。
-优先用 INDEX.json 定位课程，不遍历仓库，也不预加载全部 Stage。
-
-从记录的游标继续；初始状态先做 S000 的无提示诊断。
-一次只处理一个目标的当前层级，不展示教师核验答案。
-“继续”只深入当前目标一层，不自动切换目标。
-
-每次有效练习后按真实作答记录证据。
-暂停时保存具体问题和证明步骤，校验更新后的状态，
-并更新/提供最新的 progress.json。
-
-不得仅因讲解完成、用户表示“懂了”或看过答案而记录为掌握。
-提示下完成、独立完成、延迟复测必须分别记录。
-
-没有 Library 写入能力时，给出完整的待替换 progress.json 或明确的待提交更新，
-并明确说明尚未保存。
-```
-
-把 `<owner>/<repo>` 换成实际 GitHub 仓库即可。
-
-## 保存边界
-
-GitHub 仓库是**只读课程本体**；Library 中的 `progress.json` 是**动态学习状态**。不要把运行时进度提交到仓库。
-
-课程升级时若 `curriculum.json` 的版本或 SHA-256 改变，不要把旧进度悄悄套到新课程上；先核对迁移影响，再更新进度中的课程版本信息。
+来源与使用范围见 [SOURCES](SOURCES.md)。
